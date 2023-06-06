@@ -61,8 +61,8 @@ const Form = () => {
                 <HiPhoto size={30} className="text-sky-500" />
             </CldUploadButton>
             <form 
-        onSubmit={handleSubmit(onSubmit)} 
-        className="flex items-center gap-2 lg:gap-4 w-full"
+              onSubmit={handleSubmit(onSubmit)} 
+              className="flex items-center gap-2 lg:gap-4 w-full"
       >
         <MessageInput 
           id="message" 
